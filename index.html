@@ -1,0 +1,98 @@
+<!-- Agrega aquí la estructura HTML de tu sitio web -->
+<!DOCTYPE html>
+<html lang="es">
+<!--  vinculación con archivo css, vinculación de fuentes, ícono y título -->
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/gif" href="assets/images/profile.png" />
+    <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:700" rel="stylesheet">
+    <script src="https://use.fontawesome.com/f164699f24.js"></script>
+    <title>Freelancer - Start Bootstrap Theme</title>
+</head>
+
+<body>
+
+    <header>
+      <!--barra de navegación menú-->
+        <nav>
+            <a href="#start" class="text-uppercase header-left absolute montserrat white">Start Bootstrap</a>
+            <div class="header-right absolute">
+                <a href="#port" class="text-uppercase montserrat white">Portfolio</a>
+                <a href="#info" class="text-uppercase montserrat white">About</a>
+                <a href="#datos" class="text-uppercase montserrat white">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+      <!--sección home de la página-->
+        <section id="start" class="home relative">
+            <img src=assets/images/profile.png alt="Profile" class="profile absolute" />
+            <p class="text-uppercase absolute montserrat white">Start Bootstrap</p>
+            <p class="description absolute lato white">Web Developer - Graphic Artist - User Experience Designer</p>
+        </section>
+        <!--sección portafolio de la página-->
+        <section id="port" class="portfolio text-uppercase relative">
+            <p class="absolute montserrat">Portfolio</p>
+            <div class="portfolio-photos absolute">
+                <a href="#" target="_blank"><img src="assets/images/portfolio/cabin.png" width="349" height="252" alt="cabin"></a>
+                <a href="#" target="_blank"><img src="assets/images/portfolio/cake.png" width="349" height="252" alt="cake"></a>
+                <a href="#" target="_blank"><img src="assets/images/portfolio/circus.png" width="349" height="252" alt="circus"></a>
+            </div>
+            <div class="portfolio-photos-bottom absolute">
+                <a href="#" target="_blank"><img src="assets/images/portfolio/game.png" width="349" height="252" alt="game"></a>
+                <a href="#" target="_blank"><img src="assets/images/portfolio/safe.png" width="349" height="252" alt="safe"></a>
+                <a href="#" target="_blank"><img src="assets/images/portfolio/submarine.png" width="349" height="252" alt="submarine"></a>
+            </div>
+        </section>
+        <!--sección about de la página-->
+        <section id="info" class="about relative">
+            <p class="text-uppercase absolute about-title montserrat white">About</p>
+            <span class="absolute first-about lato white">
+                Freelancer is a free boostrap theme <br>created by Bootstrap. The <br>download inclusdes the complete source<br> files including HTML, CSS, and<br> JavaScript as well as optional LESS <br> stylesheet for easy customization.</span>
+            </span>
+            <span class="absolute second-about lato white">
+                Wheter you're a student looking to <br>showcase your work, a professional <br>looking to attract clients, or a graphic<br> artist looking to share your projects, this<br> template is the perfect starting point!</span>
+            </span>
+            <a href="#" target="_blank" class="absolute white"><i class="fa fa-download lato" aria-hidden="true"></i> Download theme</a>
+        </section>
+        <!--sección contact de la página-->
+        <section id="datos" class="contact relative">
+            <p class="text-uppercase absolute montserrat">Contact me</p>
+            <div class="form-container">
+                <input type="text" placeholder="Name" class="block lato">
+                <input type="text" placeholder="Email Adress" class="block lato">
+                <input type="text" placeholder="Phone Number" class="block lato">
+                <input type="text" placeholder="Message" class="block lato">
+            </div>
+            <a href="#" target="_blank" class="absolute lato white">Send</a>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="relative">
+        <div class="first-container absolute">
+            <p class="white text-uppercase montserrat hf">Location</p>
+            <p class="lato white">3481 Melrose Place <br> Beverly Hills CA 90210</p>
+        </div>
+        <div class="second-container white absolute">
+            <p class="text-uppercase montserrat hf">Around the web</p>
+            <!--íconos de redes sociales -->
+            <a href="#"><i class="fa fa-facebook white" aria-hidden="true" style="font-size:20px;"></i></a>
+            <a href="#"><i class="fa fa-google-plus fa-2x white" aria-hidden="true" style="font-size:20px;"></i></a>
+            <a href="#"><i class="fa fa-twitter fa-2x white" aria-hidden="true" style="font-size:20px;"></i></a>
+            <a href="#"><i class="fa fa-linkedin fa-2x white" aria-hidden="true" style="font-size:20px;"></i></a>
+            <a href="#"><i class="fa fa-dribbble fa-2x white" aria-hidden="true" style="font-size:20px;"></i></a>
+        </div>
+        <div class="third-container white absolute">
+          <!--información de la empresa -->
+            <p class="text-uppercase montserrat hf">About freelancer</p>
+            <p class="lato">Freelance is a free to use, open source <br>Bootstrap theme created by <a href="http://startbootstrap.com" target="_blank">Start<br> Bootstrap</a>.</p>
+        </div>
+        <span class="lato white absolute">Copyright © Your Website 2017</span>
+    </footer>
+
+</body>
+
+</html>

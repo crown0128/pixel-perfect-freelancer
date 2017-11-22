@@ -1,0 +1,283 @@
+/*
+ * Estilos de tu proyecto
+ */
+ /*Clases reutilizables */
+
+ main {
+     text-align: center;
+ }
+
+ .text-uppercase {
+     text-transform: uppercase;
+ }
+
+ .absolute {
+     position: absolute;
+ }
+
+ .relative {
+     position: relative;
+ }
+
+ .montserrat {
+     font-family: 'Montserrat', sans-serif;
+ }
+
+ .lato {
+     font-family: 'Lato', sans-serif;
+ }
+
+ .white {
+     color: white;
+ }
+
+ .block {
+     display: block;
+ }
+
+
+ /*Estilo de secciones */
+
+ body {
+     margin: 0;
+ }
+
+ header {
+     background: #2B3F4F;
+     height: 106px;
+     position: fixed;
+     width: 100%;
+     z-index: 1;
+     margin: 0;
+     padding: 0;
+ }
+
+ header a {
+     text-decoration: none;
+     margin: 10px;
+ }
+
+ .header-right {
+     right: 80px;
+     top: 40px;
+ }
+
+ .header-left {
+     top: 25px;
+     left: 60px;
+     font-size: 32px;
+ }
+
+ .header-right a:hover {
+     color: #00BC9E;
+ }
+
+ .home {
+     background: #00BC9E;
+     height: 811px;
+     width: 100%;
+     text-align: center;
+ }
+
+ .profile {
+     height: 258px;
+     width: 258px;
+     top: 195px;
+     left: 510px;
+ }
+
+ .home p {
+     top: 420px;
+     left: 256px;
+     font-size: 76px;
+     font-weight: 700;
+     text-align: center;
+ }
+
+ .home .description {
+     top: 662px;
+     font-size: 28px;
+     left: 256px;
+     font-weight: 300;
+ }
+
+ .portfolio {
+     height: 883px;
+     background: white;
+ }
+
+ .portfolio p {
+     width: 100%;
+     margin-top: 110px;
+     font-size: 50px;
+     font-weight: 900;
+ }
+
+ .portfolio-photos {
+     top: 218px;
+     left: 48px;
+ }
+
+ .portfolio-photos-bottom {
+     top: 500px;
+     left: 48px;
+ }
+
+ .portfolio-photos img,
+ .portfolio-photos-bottom img {
+     margin: 14px;
+ }
+
+ .portfolio img:hover {
+     background: #00BC9E;
+ }
+
+ .about {
+     background: #00BC9E;
+     height: 579px;
+     width: 100%;
+ }
+
+ .about-title {
+     width: 100%;
+     font-size: 45px;
+     top: 50px;
+     text-align: center;
+ }
+
+ .about span {
+     top: 213px;
+     text-align: left;
+     left: 225px;
+     font-size: 21px;
+     line-height: 160%;
+ }
+
+ .about .second-about {
+     left: 635px;
+ }
+
+ .about a {
+     text-decoration: none;
+     top: 428px;
+     left: 518px;
+     height: 35px;
+     width: 209px;
+     border: 2px solid white;
+     padding-top: 12px;
+     border-radius: 5px;
+     font-size: 20px;
+     font-family: 'Lato', sans-serif;
+ }
+
+ .about a:hover {
+     background: white;
+     color: #00BC9E;
+ }
+
+ .contact {
+     background: white;
+     height: 937px;
+ }
+
+ .contact p {
+     width: 100%;
+     font-size: 45px;
+     top: 50px;
+ }
+
+ .form-container {
+     padding-top: 258px;
+     padding-left: 258px;
+     padding-right: 260px;
+ }
+
+ input[type="text"] {
+     width: 100%;
+     border: none;
+     height: 40px;
+     font-size: 24px;
+     height: 85px;
+     color: rgb(179, 185, 194);
+     padding-top: 5px;
+     border-bottom: 1px solid #eee
+ }
+
+ input[type="text"]:active {
+     border: hidden;
+ }
+
+ .contact a {
+     background: #00BC9E;
+     top: 773px;
+     left: 260px;
+     width: 79px;
+     height: 35px;
+     padding-top: 13px;
+     font-size: 20px;
+     text-decoration: none;
+     border-radius: 5px;
+ }
+
+ .contact a:hover {
+     background: rgb(6, 124, 104);
+ }
+
+ footer {
+     background: #2B3F4F;
+     height: 289px;
+     width: 100%;
+     padding-top: 30px;
+     padding-bottom: 30px;
+     text-align: center;
+ }
+
+ .hf {
+     font-size: 29px;
+ }
+
+ .first-container {
+     left: 141px;
+     font-size: 21px;
+     line-height: 160%;
+ }
+
+ .second-container {
+     left: 460px;
+     text-decoration: none;
+ }
+
+ .second-container i {
+     height: 35px;
+     width: 50px;
+     margin: 20px;
+     border: 2px solid white;
+     border-radius: 50px;
+     margin: 0 auto;
+     padding-top: 15px;
+ }
+
+ .second-container i:hover {
+     color: #00BC9E;
+     background: white;
+ }
+
+ .third-container {
+     left: 838px;
+     font-size: 21px;
+     line-height: 160%;
+ }
+
+ .third-container a {
+     text-decoration: none;
+     color: #00BC9E;
+ }
+
+ .third-container a:hover {
+     text-decoration: underline;
+ }
+
+ footer span {
+     top: 299px;
+     left: 511px;
+ }
